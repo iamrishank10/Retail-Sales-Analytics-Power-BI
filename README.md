@@ -15,3 +15,27 @@ Interactive Power BI dashboard to analyze retail sales, profit performance, orde
 4. Interactive Visualizations – Sales Distribution & Relationships
 <img width="602" height="382" alt="Screenshot 2026-10-29 021428" src="https://github.com/user-attachments/assets/6a52f7be-f077-42cc-9425-9cd20aa9c480" />
 
+
+**Project Objectives**
+- Analyze overall sales and profit performance.
+- Track key performance indicators (KPIs) and order trends.
+- Explore regional and product-level sales performance.
+- Identify patterns and relationships through interactive visualizations.
+
+**Tools & Technologies**
+- Power BI – Dashboard development and reporting
+- Power Query – Data preparation and transformation
+- DAX – Measures and KPI calculations
+- Data Visualization – Interactive charts, cards, and filters
+
+**Key Features**
+- KPI cards for sales, profit, orders, and other business metrics.
+- Sales trend and regional performance analysis.
+- Product-level and profitability insights.
+- Interactive visuals for exploring the data.
+
+**Project File**
+The .pbix file is available in this repository. Download it and open it using Power BI Desktop to explore the report.
+
+**Skills Demonstrated**
+Data Analysis | Data Cleaning | Power Query | DAX | KPI Reporting | Dashboard Design | Data Visualization
