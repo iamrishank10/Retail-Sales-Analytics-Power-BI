@@ -35,7 +35,9 @@ Interactive Power BI dashboard to analyze retail sales, profit performance, orde
 - Interactive visuals for exploring the data.
 
 **Project File**
+
 The .pbix file is available in this repository. Download it and open it using Power BI Desktop to explore the report.
 
 **Skills Demonstrated**
+
 Data Analysis | Data Cleaning | Power Query | DAX | KPI Reporting | Dashboard Design | Data Visualization
