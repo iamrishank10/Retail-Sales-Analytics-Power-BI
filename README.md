@@ -12,7 +12,6 @@ Interactive Power BI dashboard to analyze retail sales, profit performance, orde
 3. Sales Insights – Product & Profitability Analysis
 <img width="614" height="361" alt="Screenshot 2026-10-29 021331" src="https://github.com/user-attachments/assets/1481f35b-d265-4fd4-a06f-f6469e1e9983" />
 
-
 4. Interactive Visualizations – Sales Distribution & Relationships
 <img width="602" height="382" alt="Screenshot 2026-10-29 021428" src="https://github.com/user-attachments/assets/6a52f7be-f077-42cc-9425-9cd20aa9c480" />
 
