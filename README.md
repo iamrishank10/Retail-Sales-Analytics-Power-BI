@@ -39,19 +39,24 @@ Provides an interactive overview of overall business performance.
 - Key Business Insights
 - Interactive slicers for Order Date, Region, and Product Category
   
-**Dashboard Preview**
+## Dashboard Screenshots
 
-1. KPI Dashboard – Business Performance Overview
-<img width="662" height="383" alt="Screenshot 2026-10-29 021008" src="https://github.com/user-attachments/assets/afaf73bd-dbcb-4889-af33-640a082c88bd" />
+### 1. KPI Overview
+<img width="662" height="369" alt="Screenshot 2026-11-07 043622" src="https://github.com/user-attachments/assets/65cd0890-89aa-4473-b806-c95258b9619b" />
 
-2. Sales Analysis – Trends & Regional Performance
-<img width="724" height="379" alt="Screenshot 2026-10-29 021210" src="https://github.com/user-attachments/assets/a9bb4fa4-b2f3-4652-b007-76ecf85ff9df" />
+### 2. Sales Performance
+<img width="640" height="380" alt="Screenshot 2026-11-07 044103" src="https://github.com/user-attachments/assets/6e548c9b-1227-4582-b44a-aa08f506931b" />
 
-3. Sales Insights – Product & Profitability Analysis
-<img width="614" height="361" alt="Screenshot 2026-10-29 021331" src="https://github.com/user-attachments/assets/1481f35b-d265-4fd4-a06f-f6469e1e9983" />
+### 3. Product & Profitability Analysis
+<img width="618" height="369" alt="Screenshot 2026-11-07 044130" src="https://github.com/user-attachments/assets/d2c3c244-13c4-4868-912b-176454ded3b7" />
 
-4. Interactive Visualizations – Sales Distribution & Relationships
-<img width="602" height="382" alt="Screenshot 2026-10-29 021428" src="https://github.com/user-attachments/assets/6a52f7be-f077-42cc-9425-9cd20aa9c480" />
+### 4. Customer & Order Analysis
+<img width="486" height="370" alt="Screenshot 2026-11-07 044158" src="https://github.com/user-attachments/assets/65fdc8b6-11f9-45d9-a87e-8dc39a16a4e4" />
+
+### 5. Executive Summary & Business Insights
+<img width="586" height="367" alt="Screenshot 2026-11-07 044237" src="https://github.com/user-attachments/assets/b33fdee8-b8d2-4999-9bec-8f2e7af65cbf" />
+
+
 
 
 **Project Objectives**
