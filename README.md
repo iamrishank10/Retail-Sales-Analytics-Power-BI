@@ -1,6 +1,44 @@
 # Retail-Sales-Analytics-Power-BI
 Interactive Power BI dashboard to analyze retail sales, profit performance, order trends, and regional insights using DAX, Power Query, and data visualization.
 
+## Dashboard Pages
+
+### 1. KPI Overview
+Provides a high-level overview of key business performance metrics, including:
+- Total Sales
+- Total Profit
+- Total Orders
+- Profit Margin
+- Average Order Value
+
+### 2. Sales Performance
+Analyzes sales trends and overall revenue performance across different business dimensions.
+
+### 3. Product & Profitability Analysis
+Evaluates product performance, profitability, category contribution, and sales-versus-profit relationships.
+
+### 4. Customer & Order Analysis
+Analyzes customer segments, order patterns, shipping methods, and category-level performance.
+
+**Visualizations included:**
+- Orders by Customer Segment
+- Sales Distribution by Category
+- Customer Segment by Region
+- Monthly Order Trend
+- Orders by Shipping Mode
+- Sales Performance by Segment Over Time
+- Profit by Category
+
+### 5. Executive Summary & Business Insights
+Provides an interactive overview of overall business performance.
+
+**Key components:**
+- Five KPI Cards
+- Sales Drivers Analysis using Decomposition Tree
+- Regional Sales & Profit Analysis using Matrix
+- Key Business Insights
+- Interactive slicers for Order Date, Region, and Product Category
+  
 **Dashboard Preview**
 
 1. KPI Dashboard – Business Performance Overview
