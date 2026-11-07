@@ -97,6 +97,9 @@ Provides an executive-level overview using KPI cards, a Decomposition Tree, a Re
 <img width="586" height="367" alt="Screenshot 2026-11-07 044237" src="https://github.com/user-attachments/assets/b33fdee8-b8d2-4999-9bec-8f2e7af65cbf" />
 
 
+
+
+
 **Data Cleaning & Transformation**
 
 - Reviewed dataset structure and column data types.
