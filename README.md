@@ -36,27 +36,71 @@ An interactive Power BI dashboard project designed to analyze retail sales, prof
 **Sales Performance**
 
 1. What is the total sales revenue?
-2. How do sales change over time?
-3. Which region generates the highest sales?
-4. Which product category contributes the most revenue?
-5. Which are the top 10 products by sales?
+
+   Total sales revenue is ₹57.05M, with total profit of ₹14.55M from 2,000 orders.
+ 
+2. Which month recorded the highest and lowest sales?
+
+   June 2025 recorded the highest sales of ₹3.60M, while February 2024 recorded the lowest sales of ₹1.49M.
+
+3. Which region generates the highest sales revenue?
+
+   North leads with ₹13.51M, followed by South (₹12.89M), West (₹11.56M), East (₹9.86M), and Central (₹9.22M).
+
+4. Which product category contributes the most to total sales?
+
+   Technology leads with ₹34.29M (60.11%) of total sales.
+
+5. What are the top 10 products based on sales revenue?
+
+   External HDD (₹3.35M), Business Laptop (₹3.00M), 24-inch Monitor (₹2.86M), Student Laptop (₹2.80M), Laser Printer (₹2.57M), Inkjet Printer      (₹2.42M), 27-inch Monitor (₹2.41M), Ultrabook (₹2.39M), Budget Smartphone (₹2.16M), and External SSD (₹2.14M).
 
 **Product & Profitability Analysis**
 
-6. Which products generate the highest profit?
-7. Which category contributes the most profit?
-8. What is the profit margin across product categories?
+6. Which product generates the highest total profit?
+
+   External HDD generates the highest profit of ₹0.85M.
+
+7. Which category contributes the highest total profit?
+
+   Technology generates the highest total profit of ₹8.37M, contributing 57.54% of total profit.
+
+8. Which product category has the highest profit margin?
+
+   Furniture has the highest profit margin at 28.25%, followed by Home & Kitchen at 27.83%.
+
 9. What is the relationship between sales and profit?
-10. Which products perform best in terms of sales and profitability?
+
+   Sales and profit have a strong positive correlation of 0.84.
+
+10. Which product performs best in terms of both sales and profit?
+ 
+    External HDD leads in both sales (₹3.35M) and profit (₹0.85M).
 
 **Customer & Order Analysis**
 
 11. Which customer segment generates the highest number of orders?
-12. How are customer segments distributed across regions?
-13. How does monthly order volume change over time?
-14. Which shipping mode is used most frequently?
-15. How does sales performance vary across customer segments over time?
 
+   Consumer leads with 1,171 orders (58.55%), followed by Corporate (553) and Small Business (276).
+
+12. How are customer segments distributed across different regions?
+
+    Consumer leads in all five regions, with the highest count in North (274 orders), followed by West (266), South (254), East (198), and          Central (179).
+
+13. How does monthly order volume change over time?
+
+    March 2024 recorded the highest order volume with 102 orders, while September 2024 recorded the lowest with 69 orders.
+
+14. Which shipping mode is used most frequently?
+
+    Standard shipping leads with 987 orders (49.35%), followed by Express (469), Economy (388), and Same Day (156).
+
+15. Which customer segment generates the highest sales over time?
+
+    Consumer leads in 23 out of 24 months, reaching its highest monthly sales of ₹2.32M in June 2025.
+
+
+    
 **Dashboard Pages**
 
 1. KPI Overview
