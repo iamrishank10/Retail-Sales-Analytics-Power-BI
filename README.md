@@ -1,11 +1,11 @@
 # Retail-Sales-Analytics-Power-BI
-Interactive Power BI dashboard to analyze retail sales, profit performance, order trends, and regional insights using DAX, Power Query, and data visualization.
+An interactive Power BI dashboard to analyze retail sales, profit performance, order trends, customer behaviour, and regional insights using Power BI, DAX, Power Query, and data visualization.
 
-  **Project Overview**
+  ## 1. Project Overview
 
 An interactive Power BI dashboard project designed to analyze retail sales, profitability, customer behavior, and order trends. The project uses Power Query, DAX measures, and interactive visualizations to generate business insights and support data-driven decision-making.
 
-**Project Objectives**
+## 2. Project Objectives
 
 - Analyze overall sales and profit performance.
 - Monitor key business KPIs.
@@ -15,14 +15,47 @@ An interactive Power BI dashboard project designed to analyze retail sales, prof
 - Analyze monthly sales and order trends.
 - Present business insights through interactive dashboards.
 
-**Tools & Technologies**
+## 3. Tools & Technologies
 
 - Power BI Desktop – Dashboard development and data visualization.
 - Power Query – Data cleaning and transformation.
 - DAX – Measures and KPI calculations.
 - Microsoft Excel – Dataset handling and data review.
 
-**Key Performance Indicators (KPIs)**
+## 4. Dataset Overview
+
+The project uses a retail sales dataset containing order-level business information.
+
+| Dataset Information | Details |
+|---|---|
+| Total Records | 2,000 |
+| Total Columns | 21 |
+| Analysis Period | January 2024 – December 2025 |
+| Data Type | Retail Sales Data |
+
+**Key Dataset Fields:**
+
+- Order ID and Order Date
+- Customer ID and Customer Segment
+- Region, State and City
+- Product Category and Sub-Category
+- Product Name and Quantity
+- Sales and Profit
+- Discount and Shipping Cost
+- Ship Mode and Payment Mode
+- Returned Status
+
+## 5. Data Cleaning & Transformation
+
+Data preparation was performed using Power Query before developing the dashboards.
+
+- Reviewed column names and data types.
+- Checked missing values and duplicate records.
+- Used column profiling to review data quality.
+- Corrected date and numerical data types.
+- Verified data consistency and prepared the dataset for analysis.
+
+## 6. Key Performance Indicators (KPIs)
 
 - The dashboard tracks the following key metrics:
 - Total Sales
@@ -31,7 +64,7 @@ An interactive Power BI dashboard project designed to analyze retail sales, prof
 - Profit Margin
 - Average Order Value (AOV)
 
-**Business Questions**
+## 7. Key Business Questions & Findings
 
 **Sales Performance**
 
@@ -99,9 +132,8 @@ An interactive Power BI dashboard project designed to analyze retail sales, prof
 
     Consumer leads in 23 out of 24 months, reaching its highest monthly sales of ₹2.32M in June 2025.
 
-
-    
-**Dashboard Pages**
+   
+## 8. **Dashboard Pages**
 
 1. KPI Overview
 
@@ -123,7 +155,7 @@ Analyzes customer segments, category distribution, regional customer patterns, m
 
 Provides an executive-level overview using KPI cards, a Decomposition Tree, a Regional Sales & Profit Matrix, business insights, and interactive slicers.
   
-## Dashboard Screenshots
+## 9. Dashboard Screenshots
 
 ### 1. KPI Overview
 <img width="662" height="369" alt="Screenshot 2026-11-07 043622" src="https://github.com/user-attachments/assets/65cd0890-89aa-4473-b806-c95258b9619b" />
@@ -164,6 +196,76 @@ Provides an executive-level overview using KPI cards, a Decomposition Tree, a Re
 - Customer Segmentation
 - Interactive Dashboard Development
 
-**Project Conclusion**
+## 10. DAX Measures
 
-This project demonstrates how Power BI can be used to transform retail sales data into interactive dashboards and meaningful business insights. It covers the complete reporting workflow, from data preparation and KPI development to visual analysis and executive-level reporting.
+DAX was used to create key business calculations and performance indicators.
+
+**Total Sales**
+```dax
+Total Sales = SUM('Orders'[Sales (INR)])
+```
+
+**Total Profit**
+```dax
+Total Profit = SUM('Orders'[Profit (INR)])
+```
+
+**Total Orders**
+```dax
+Total Orders = DISTINCTCOUNT('Orders'[Order ID])
+```
+
+**Profit Margin %**
+```dax
+Profit Margin % = DIVIDE([Total Profit], [Total Sales], 0)
+```
+
+**Average Order Value (AOV)**
+```dax
+AOV = DIVIDE([Total Sales], [Total Orders], 0)
+```
+
+## 11. Interactive Dashboard Features
+
+- **Order Date Slicer:** Filter data by a selected date range.
+- **Region Slicer:** Analyse performance across individual regions.
+- **Product Category Slicer:** Focus on specific product categories.
+- **Interactive Visuals:** Explore data through visual interactions and cross-filtering.
+- **Decomposition Tree:** Drill down into sales by region, category, customer segment, and shipping mode.
+
+## 12. Key Business Insights & Recommendations
+
+Based on the analysis, the following business insights were identified:
+
+1. **Technology dominates sales:** It contributes 60.11% of total sales and 57.54% of total profit.
+2. **North is the leading region:** It generates the highest regional sales revenue at ₹13.51M.
+3. **Consumer is the largest segment:** It contributes 58.55% of total orders and leads monthly sales in 23 out of 24 months.
+4. **Furniture has the highest profit margin:** It delivers a margin of 28.25%, despite Technology generating the highest total profit.
+5. **External HDD is a top performer:** It ranks first in both total sales and total profit.
+
+### Business Recommendations
+
+- Focus on maintaining and growing the Technology category's sales performance.
+- Investigate opportunities to improve sales in the Central region.
+- Analyse the factors contributing to Furniture's higher profit margin.
+- Develop customer retention strategies for the Consumer segment.
+- Review product-level profitability to identify further growth opportunities.
+
+## 13. Skills Demonstrated
+
+- Data Cleaning & Transformation
+- Power Query
+- Data Analysis
+- DAX Measures
+- KPI Development
+- Data Visualization
+- Interactive Dashboard Development
+- Business Intelligence
+- Sales & Profitability Analysis
+- Business Insights & Reporting
+
+## 14. Project Conclusion
+
+This project demonstrates the use of Power BI to transform retail sales data into meaningful business insights. Through data preparation, DAX calculations, interactive dashboards, and business analysis, the project identifies key sales drivers, profitable categories, customer trends, and regional performance.
+
+The dashboard provides a consolidated view of business performance and supports data-driven decision-making.
